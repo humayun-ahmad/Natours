@@ -140,3 +140,10 @@ body{
     background-color: #fff;
     color: #777;
 }
+.btn::after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
