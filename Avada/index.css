@@ -1,0 +1,85 @@
+.btn{
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-orange{
+    background: orange;
+    color: white;
+}
+
+.btn-white{
+    background: white;
+    color: black;
+}
+
+.header{
+    height: 400px;
+    /* background: gray; */
+    background-image: url('images/header-no-sep\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    /* background: red; */
+
+}
+
+.navbar a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: orange;
+}
+
+.navbar button{
+    background: orange;
+    color: white;
+}
+
+.header-content{
+    padding: 50px;
+}
+
+.header-content h1{
+    color: white;
+    text-align: center;
+}
+
+.header-buttons{
+   text-align: center;
+}
+
+.brand{
+    height: 400px;
+    background: #f1f1f1;
+    padding: 25px;
+    display: flex;
+}
+
+.brand-text-content{
+    background: white;
+    width: 50%;
+    height: 100%;
+}
+
+.brand-image{
+    background: black;
+    width: 50%;
+    height: 100%;
+}
+
+.brand .border{
+    height: 2px;
+}
+
